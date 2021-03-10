@@ -24,12 +24,19 @@ outline: 0px;
 padding: 5px;
 }
 .signin {
-    position: absolute;
-    top: 15px;
-    right: 15px;
     background: #1a73e8;
-    border-width: 0px;
-    border-radius: 25px;
+    border: 1px;
+    height: 40px;
+    width: 75px;
+    border-color: transparent;
+    border-radius: 5px;
+    outline: transparent;
+    color: white;
+    font-family: Sans,Roboto,RobotoDraft,Arial, Helvetica, sans-serif;
+    position: absolute;
+    top: 10px;
+    right: 15px;
+    cursor: pointer;
 
 }
 .images {
@@ -37,7 +44,7 @@ padding: 5px;
     height: 5px;
     position: absolute;
     top: 15px;
-    right: 160px;
+    right: 180px;
  
 }
 .about {
@@ -55,7 +62,7 @@ padding: 5px;
 #dots {
     position:absolute;
     top: 15px;
-    right: 90px;
+    right: 105px;
     width: 20px;
     height: 20px;
     display: block;
@@ -63,20 +70,48 @@ padding: 5px;
 .gmail {
     position: absolute;
     top: 15px;
-    right: 190px;
+    right: 200px;
 }
 .gsearch{
-    position: relative;
-    width: 290px;
+    position: absolute;
+    width: 150px;
     margin: 0 auto;
-    top: 270px;
+    top: 398px;
+    left: 240px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 .luckyblock{
-    position: relative;
+    position: absolute;
     margin: 0 auto;
-    width: 290px;
-    top: 249px;
-    left: 170px;
+    width: 150px;
+    top: 410px;
+    left: 425px;
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    border-radius: 4px;
+    color: #3c4043;
+    font-family: arial,sans-serif;
+    font-size: 14px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
 }
 .toplinks{
 font-size: 15px;
