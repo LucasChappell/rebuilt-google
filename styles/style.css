@@ -8,7 +8,7 @@ body{
     width: 292px;
     height: 92px;
     margin: 0 auto;
-    top: 200px;
+    top: 215px;
 
 }
 #search {
@@ -17,53 +17,69 @@ display: block;
 margin: 0 auto;
 top: 250px;
 border-radius: 20px;
-width: 300px;
+width: 350px;
+height: 30px;
 border-width: 1px;
+outline: 0px;
+padding: 5px;
 }
 .signin {
     position: absolute;
-    top: 7px;
-    right: 7px;
+    top: 15px;
+    right: 15px;
+    background: #1a73e8;
+    border-width: 0px;
+    border-radius: 25px;
 
 }
 .images {
     width: 10px;
     height: 5px;
     position: absolute;
-    top: 10px;
-    right: 145px;
-    font-size: 14px;
+    top: 15px;
+    right: 160px;
+ 
 }
 .about {
     position: absolute;
-    top: 10px;
-    left: 15px;
-    font-size: 14px;
+    top: 15px;
+    left: 30px;
+  
 }
 .store {
     position: absolute;
-    top: 10px;
-    left: 70px;
-    font-size: 14px;
+    top: 15px;
+    left: 85px;
+
 }
 #dots {
     position:absolute;
-    top: 10px;
-    right: 75px;
+    top: 15px;
+    right: 90px;
     width: 20px;
     height: 20px;
     display: block;
 }
 .gmail {
     position: absolute;
-    top: 10px;
-    right: 175px;
-    font-size: 14px;
+    top: 15px;
+    right: 190px;
 }
 .gsearch{
     position: relative;
+    width: 290px;
     margin: 0 auto;
-
+    top: 270px;
+}
+.luckyblock{
+    position: relative;
+    margin: 0 auto;
+    width: 290px;
+    top: 249px;
+    left: 170px;
+}
+.toplinks{
+font-size: 15px;
 }
 
 
