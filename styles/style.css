@@ -1,0 +1,72 @@
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+.logo {
+    position: relative;
+    width: 292px;
+    height: 92px;
+    margin: 0 auto;
+    top: 200px;
+
+}
+#search {
+position: relative;
+display: block;
+margin: 0 auto;
+top: 250px;
+border-radius: 20px;
+width: 300px;
+border-width: 1px;
+}
+.signin {
+    position: absolute;
+    top: 7px;
+    right: 7px;
+
+}
+.images {
+    width: 10px;
+    height: 5px;
+    position: absolute;
+    top: 10px;
+    right: 145px;
+    font-size: 14px;
+}
+.about {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    font-size: 14px;
+}
+.store {
+    position: absolute;
+    top: 10px;
+    left: 70px;
+    font-size: 14px;
+}
+#dots {
+    position:absolute;
+    top: 10px;
+    right: 75px;
+    width: 20px;
+    height: 20px;
+    display: block;
+}
+.gmail {
+    position: absolute;
+    top: 10px;
+    right: 175px;
+    font-size: 14px;
+}
+.gsearch{
+    position: relative;
+    margin: 0 auto;
+
+}
+
+
+a:link {color: blue;}
+a:hover{text-decoration: underline;
+cursor: pointer;}
