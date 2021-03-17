@@ -3,31 +3,32 @@ body{
     font-family: Arial, Helvetica, sans-serif;
         background: #003cff;  
         background: -webkit-linear-gradient(to left, #c2c5ff, #4e54c8);  
-        width: 100%;
-        height:100vh;
-        
-       
-
+        width: 98vw;
+        height:96vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    
 }
-.logo {
+/* .logo {
     position: relative;
-    width: 292px;
-    height: 92px;
     margin: 0 auto;
     top: 215px;
+    left: 600px;
+    
 
-}
+} */
 #search {
-position: relative;
+/* position: relative; */
 display: block;
 margin: 0 auto;
-top: 250px;
+/* top: 250px; */
 border-radius: 20px;
 width: 350px;
 height: 30px;
 border-width: 1px;
 outline: 0px;
-padding: 5px;
+padding: 10px;
 }
 .signin {
     background: #1a73e8;
@@ -51,19 +52,21 @@ padding: 5px;
     position: absolute;
     top: 15px;
     right: 180px;
+    color: #f8f9fa;
  
 }
 .about {
     position: absolute;
     top: 15px;
     left: 30px;
+    color: #f8f9fa;
   
 }
 .store {
     position: absolute;
     top: 15px;
     left: 85px;
-
+color: #f8f9fa;
 }
 #dots {
     position:absolute;
@@ -77,13 +80,14 @@ padding: 5px;
     position: absolute;
     top: 15px;
     right: 200px;
+    color: #f8f9fa;
 }
 .gsearch{
-    position: absolute;
+    /* position: absolute; */
     width: 150px;
     margin: 0 auto;
-    top: 398px;
-    left: 240px;
+    /* top: 288px;
+    left: 775px; */
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -101,11 +105,10 @@ padding: 5px;
     outline: none;
 }
 .luckyblock{
-    position: absolute;
-    margin: 0 auto;
+    /* position: absolute; */
     width: 150px;
-    top: 410px;
-    left: 425px;
+    /* top: 300px;
+    left: 975px; */
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -211,7 +214,9 @@ font-size: 15px;
     animation-duration: 10s;
 }
 
-
+a {
+    color: white;
+}
 a:link {color: blue;}
 a:hover{text-decoration: underline;
 cursor: pointer;}
@@ -230,4 +235,35 @@ cursor: pointer;}
         opacity: 0;
         border-radius: 50%;
     }
+}
+/* .buttons{
+    display: flex;
+
+} */
+.googlelogo {
+    height:100px;
+    /* width: 35%; */
+    /* margin: 0 auto; */
+}
+main{
+    width: 100vw;
+    display: flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+}
+footer{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+}
+.botLeft{
+    color: white;
+    text-decoration: none;
+}
+.advertising{
+    text-decoration: none;
+    
+
 }
